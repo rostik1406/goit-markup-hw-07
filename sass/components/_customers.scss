@@ -7,12 +7,12 @@
 }
 
 .customers__link {
-  width: 170px;
-  height: 92px;
-
   display: flex;
   justify-content: center;
   align-items: center;
+
+  width: 170px;
+  height: 92px;
 
   fill: var(--background-color-icons);
 
@@ -30,14 +30,14 @@
   }
 }
 
-.customers_svg {
-  width: 106px;
-  height: 60px;
-}
-
 .customers__item {
   margin-left: 30px;
   &:first-child {
     margin-left: 0;
   }
+}
+
+.customers__svg {
+  width: 106px;
+  height: 60px;
 }
