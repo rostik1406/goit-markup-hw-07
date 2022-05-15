@@ -1,0 +1,153 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--background-h-f-color);
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.first-footer {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.address {
+    display: flex;
+    font-style: normal;
+}
+
+.address-list {
+    margin-top: 20px;
+}
+
+.address-list .address-item+.address-item {
+    margin-top: 9px;
+}
+
+.address-general {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.address-maps {
+    color: var(--text-white-color);
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.second-footer {
+    align-items: center;
+    margin-left: 70px;
+}
+
+.title-icon {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--text-white-color);
+}
+
+.footer-list-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer-link-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.1);
+    fill: var(--text-white-color);
+
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic-bezier);
+}
+
+.footer-link-icon:hover,
+.footer-link-icon:focus {
+    background-color: var(--accent-color);
+    fill: var(--text-white-color);
+}
+
+.footer-list-icon li+li {
+    margin-left: 10px;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* -------------------Подпишитесь--------------- */
+.third-footer {
+    margin-left: 93px;
+}
+
+.footer-label {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--text-white-color);
+}
+
+.footer-input {
+    width: 358px;
+    height: 50px;
+
+    padding-left: 16px;
+
+    color: var(--text-white-color);
+    background-color: var(--background-h-f-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.footer-button {
+    display: inline-flex;
+
+    margin-left: 12px;
+}
+
+.footer-button::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+
+    margin-left: 10px;
+
+    background-image: url(../images/envelope-f.svg);
+    background-size: contain;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: var(--accent-color);
+}
+
+/* .fotter-btn-icon {
+  width: 24px;
+  height: 24px;
+
+  fill: var(--text-white-color);
+} */
