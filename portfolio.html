@@ -18,8 +18,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
 
-    <link rel="stylesheet" href="./css/main.min.css">
-
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- heder -->
@@ -328,7 +327,7 @@
     </main>
 
     <!----------------- footer ----------------->
-    <footer class="footer">
+      <footer class="footer">
       <div class="container footer__container">
         <div class="first-footer">
           <a href="" class="logo link"
@@ -369,28 +368,28 @@
         <div class="second-footer">
           <h2 class="title-icon">присоединяйтесь</h2>
           <ul class="footer-list-icon list">
-            <li>
+            <li class="footer-list-item">
               <a href="" class="footer-link-icon link">
                 <svg class="footer-icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer-list-item">
               <a href="" class="footer-link-icon link">
                 <svg class="footer-icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer-list-item">
               <a href="" class="footer-link-icon link">
                 <svg class="footer-icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="footer-list-item">
               <a href="" class="footer-link-icon link">
                 <svg class="footer-icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
@@ -399,14 +398,15 @@
             </li>
           </ul>
         </div>
+
         <div class="third-footer">
           <h2 class="footer-label">Подпишитесь на рассылку</h2>
 
-          <div class="footer-btn-form">
+          <form class="footer-btn-form">
             <input class="footer-input" type="email" placeholder="E-mail" />
 
-            <button class="footer-button" type="button">Подписаться</button>
-          </div>
+            <button class="button footer-button" type="button">Подписаться</button>
+          </form>
         </div>
       </div>
     </footer>
