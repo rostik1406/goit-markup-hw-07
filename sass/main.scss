@@ -1,8 +1,19 @@
-@import './utils/vars';
-@import './utils/section';
-@import './utils/reset';
-@import './utils/logo';
-@import './utils/button';
+@import './base/vars';
+@import './base/coment-style';
+@import './base/reset';
+
+
+@import './components/button';
+@import './components/logo';
+@import './components/section';
+@import './components/container.scss';
+
+
+@import './components/features';
+@import './components/work';
+@import './components/our-team';
+@import './components/customers';
+
 
 @import './loyout/page-header';
 @import './loyout/site-nav';
@@ -10,11 +21,8 @@
 @import './loyout/hero';
 @import './loyout/footer';
 
-@import './components/features';
-@import './components/work';
-@import './components/our-team';
-@import './components/customers';
 
 @import './base/filter';
 @import './base/moda';
 @import './base/modal-form';
+

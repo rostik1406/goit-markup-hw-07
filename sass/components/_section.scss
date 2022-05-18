@@ -1,17 +1,3 @@
-body {
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 /***************** section******************* */
 .section {
   padding-top: 94px;
@@ -23,6 +9,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+
+  margin-bottom: 50px;
 
   text-align: center;
 }
